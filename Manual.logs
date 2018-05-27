@@ -1,0 +1,24 @@
+27/05/2018 13:48:33 hfLogger Launching Chrome...
+27/05/2018 13:48:54 hfLogger Register with ID: ccb8f8576ef4@CXBPBH.QC
+27/05/2018 13:48:58 hfLogger --- Registered Email: ccb8f8576ef4@CXBPBH.QC
+27/05/2018 13:48:58 hfLogger --- Password Used: YH26LHTLVC2F
+27/05/2018 13:49:06 hfLogger --- Logging-In Using: ccb8f8576ef4@CXBPBH.QC
+27/05/2018 13:49:06 hfLogger --- Password: YH26LHTLVC2F
+27/05/2018 13:50:00 hfLogger Launching Firefox...
+27/05/2018 13:50:28 hfLogger Register with ID: c72850d396b6@VRYGSJ.DOMOF
+27/05/2018 13:50:32 hfLogger --- Registered Email: c72850d396b6@VRYGSJ.DOMOF
+27/05/2018 13:50:32 hfLogger --- Password Used: 9T5QVOHJEO
+27/05/2018 13:50:41 hfLogger --- Logging-In Using: c72850d396b6@VRYGSJ.DOMOF
+27/05/2018 13:50:41 hfLogger --- Password: 9T5QVOHJEO
+27/05/2018 13:51:36 hfLogger Launching Microsoft Edge...
+27/05/2018 13:51:41 hfLogger Register with ID: 357f3501cf39@YRYHRD.KUM
+27/05/2018 13:51:41 hfLogger ***** ERROR: signInTest Test failed
+27/05/2018 13:51:41 hfLogger --- Taking snapshot now 
+27/05/2018 13:51:41 hfLogger --- Logging-In Using: 357f3501cf39@YRYHRD.KUM
+27/05/2018 13:51:41 hfLogger --- Password: 156RAA9WPSGA
+27/05/2018 13:51:42 hfLogger ***** ERROR: logInTest Test failed
+27/05/2018 13:51:42 hfLogger --- Taking snapshot now 
+27/05/2018 13:51:42 hfLogger ***** ERROR: checkoutTest Test failed
+27/05/2018 13:51:42 hfLogger --- Taking snapshot now 
+27/05/2018 13:52:02 hfLogger ***** ERROR: checkoutAndLoginTest Test failed
+27/05/2018 13:52:02 hfLogger --- Taking snapshot now 

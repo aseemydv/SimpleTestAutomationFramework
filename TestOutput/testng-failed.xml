@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hf-test-suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="http://automationpractice.com/index.php"/>
+  <listeners>
+    <listener class-name="com.hellofresh.challenge.PageSetup"/>
+  </listeners>
+  <test name="test_edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.hellofresh.challenge.PageSetup">
+        <methods>
+          <include name="checkoutTest"/>
+          <include name="logInTest"/>
+          <include name="initSetup"/>
+          <include name="setUp"/>
+          <include name="initSetup"/>
+          <include name="setUp"/>
+          <include name="initSetup"/>
+          <include name="setUp"/>
+          <include name="checkoutAndLoginTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="signInTest"/>
+        </methods>
+      </class> <!-- com.hellofresh.challenge.PageSetup -->
+    </classes>
+  </test> <!-- test_edge(failed) -->
+</suite> <!-- Failed suite [hf-test-suite] -->

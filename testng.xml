@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="hf-test-suite" parallel="none">
+    <listeners>
+        <listener class-name="com.hellofresh.challenge.PageSetup" />
+    </listeners>
+    <parameter name="url" value="http://automationpractice.com/index.php" />
+    <test name="test_chrome" >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.hellofresh.challenge.PageSetup" />
+        </classes>
+    </test>
+    <test name="test_ff">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.hellofresh.challenge.PageSetup" />
+        </classes>
+    </test>
+    <test name="test_edge">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="com.hellofresh.challenge.PageSetup" />
+        </classes>
+    </test>
+</suite>
