@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Home test task
 
 **What do you already have?**
@@ -36,3 +37,6 @@ If you would like to impress us cover as much point as you can!
 4. Tests execution does not take more time than initial version.
 5. The code is documented and is easy to-follow.
 6. The application is supplied with all the information required for us to run and validate it as well as a description and purpose of used additional libraries.
+=======
+# web-test
+>>>>>>> c183db40d9838750c030855e840cde1d52e86bad
