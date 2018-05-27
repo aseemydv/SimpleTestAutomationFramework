@@ -1,42 +1,35 @@
-<<<<<<< HEAD
+
 # Home test task
 
-**What do you already have?**
+**Test Coverage**
 -----
  * web application with url http://automationpractice.com/index.php;
- * 3 [test cases](TESTCASES.md);
- * 3 automated tests.
+ * 4 [test cases](TESTCASES.md);
+ * 4 automated tests.
  
-We give the initial version of tests in order to save your time on extracting locators. 
 
-**What do you need to do?**
+**How to Run ?**
 ----
-You need to improve given automated tests as much as you can by designing your own solution to develop such kinds of tests for similar applications.
-Feel free to replace any tool we used in initial version of tests(maven, junit) or add other ones, if you need.
+Project has been prepared on IntelliJ Idea. Create a project by doing a checkout of this repository.
 
-Your solution can include:
-* logging;
-* taking screenshot on failed tests;
-* generation human readable report;
-* generating random values for insignificant test data, for example, for new user;
-* WebDriver factory;
-* encapsulation layers like test data, logic of tests, actions on web pages and so on;
-* configurator:
-  * run tests in parallel mode;
-  * ability to run tests for different browsers/OS by configuring;
-  * ability to run tests for different environments(urls) by configuring/by command-line.
-* reading test data from file, for example, the name of dress, size and color in the checkout test.
 
-If you would like to impress us cover as much point as you can!
+Platform and tools information:
+* OS: Windows 10 (Build 16299)
+* Browsers: Chrome, Firefox, Microsoft Edge
+* Frameworks/Tools: Selenium, Apache POI, TestNG, Log4j
+* IDE: IntelliJ Idea Community Edition - 2018.1
+* Java JDK Version: 10.0.1
 
-**Evaluation Criteria**
--------------------
-1. The improvements are done in efficient and effective manner.
-2. The improved tests pass stably and follow described cases.
-3. The solution is well and logically organised.
-4. Tests execution does not take more time than initial version.
-5. The code is documented and is easy to-follow.
-6. The application is supplied with all the information required for us to run and validate it as well as a description and purpose of used additional libraries.
-=======
-# web-test
->>>>>>> c183db40d9838750c030855e840cde1d52e86bad
+Setting-Up:
+* In  Run > Edit Configurations, select the Test Kind as "Suite" and set the path to Testng.xml file.
+* In Module settings, set the Language level to "10 - Local varibale type inference".
+* In Settings > Build, Execution, Deployment > Compiler > Java Compiler, set the Project and Target Bytecode Version to "10".
+* Invoke TESTNG to start test execution - Select "testng.xml" from the tree, click "Run"
+
+Execution:
+* In TESTNG.xml -- Change the "parallel" attribute to "tests" for running all the tests on different browsers in parallel.
+* In PageSetup.java -- Change the "invocationCount" in @Test annotation, for running the tests multiple times.
+
+
+
+
